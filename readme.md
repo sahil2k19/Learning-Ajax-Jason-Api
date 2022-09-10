@@ -1,8 +1,12 @@
 
 # How to Create Dog Api
 
+## Creating Ajax request
+
 To create Dog Api we need a Api and we need to create html for that, 
 where we create a button and we join the functionality to that button.
+
+
 
 
 
@@ -93,8 +97,13 @@ In above code the (true) here is Asynchronous request , Asynchronous is by defau
 
     </html>
 
+## To handle Error:-
+### In plain vanilla js
+    xhrRequest.onerror = function(){
+        console.log("request failed");
 
-   
+    }
+### 
     
 
 
