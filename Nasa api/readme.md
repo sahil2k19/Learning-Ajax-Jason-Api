@@ -30,11 +30,13 @@
         </iframe>`)
     }
 ### Another way of writing 
-    $('<img>', {
-        src: data.url,
-        height: '100%',
-        width: '100%',
-    }).appentTo(image);
+    function displayImage(data) {
+        $('<img>', {
+            src: data.url,
+            height: '100%',
+            width: '100%',
+        }).appentTo(image);
+    }
 
 #
 #
