@@ -60,7 +60,7 @@ $("#next a").click(function (e) {
 // display fetched dog-img
 function displayDog(breed) {
     //url for random dog of same breed
-    let url = "https://dog.ceo/api/breed/" + breed + "/images/random";
+    let url = "https://dog.ceo/api/breed/" + breed + "/images/random/20";
 
     $("#breed-image img").remove(); //removing img tag;
 
