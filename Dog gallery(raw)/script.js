@@ -37,7 +37,7 @@ function displayDog(breed) {
         // console.log(imageUrl);
         for (let i in imageUrl) {
             // console.log(imageUrl[i]);
-
+            // here (i) contains numbers like :- 0,1,2,3...
             display.append(`<img src="${imageUrl[i]}" alt="" style ="height:5em; width:5em; ">`);
         }
     })
