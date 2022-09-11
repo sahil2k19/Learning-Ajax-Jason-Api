@@ -17,7 +17,7 @@
             date: '2018-06-05',
         }
     });
-### Another way of doing (without data and date)
+#### Another way of doing (without data and date)
     $.ajax({
         url: "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY",
         method: "GET",
@@ -30,11 +30,13 @@
         </iframe>`)
     }
 ### Another way of writing 
-    $('<img>', {
-        src: data.url,
-        height: '100%',
-        width: '100%',
-    }).appentTo(image);
+    function displayImage(data) {
+        $('<img>', {
+            src: data.url,
+            height: '100%',
+            width: '100%',
+        }).appentTo(image);
+    }
 
 #
 #
